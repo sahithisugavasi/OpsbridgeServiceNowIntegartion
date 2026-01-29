@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="GitHubIntegration">8db5a66c53b6b21059ead301a0490e23</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 11:51:17</sys_created_on>
+        <sys_id>2c1ee2ec53f6b21059ead301a0490e2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Glide API: event management</sys_name>
+        <sys_package display_value="GitHubIntegration" source="x_1212781_github_0">8db5a66c53b6b21059ead301a0490e23</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitHubIntegration">8db5a66c53b6b21059ead301a0490e23</sys_scope>
+        <sys_update_name>sys_scope_privilege_2c1ee2ec53f6b21059ead301a0490e2f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 11:51:17</sys_updated_on>
+        <target_name>Glide API: event management</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>

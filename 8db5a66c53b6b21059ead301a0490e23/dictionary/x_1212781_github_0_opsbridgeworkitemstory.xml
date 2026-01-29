@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2a1626ac53b6b21059ead301a0490e92" label="OpsbridgeWorkItemStory" max_length="40" name="x_1212781_github_0_opsbridgeworkitemstory" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Title" max_length="400" name="title" type="string"/>
+        <element choice="3" default="Medium" label="Priority" max_length="40" name="priority" type="string">
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+                <element inactive_on_update="false" label="High" value="High"/>
+                <element inactive_on_update="false" label="Medium" value="Medium"/>
+                <element inactive_on_update="false" label="Low" value="Low"/>
+            </choice>
+        </element>
+        <element choice="3" default="To Do" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="In Progress" value="In Progress"/>
+                <element inactive_on_update="false" label="To Do" value="To Do"/>
+                <element inactive_on_update="false" label="Done" value="Done"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="800" name="description" type="string"/>
+    </element>
+</database>

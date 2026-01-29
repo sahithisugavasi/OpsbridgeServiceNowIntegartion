@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_script_action">
+    <sysevent_script_action action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_script/>
+        <description/>
+        <event_name>x_1212781_github_0.opsbridge.github.trig</event_name>
+        <name>opsbridge.github.trigger</name>
+        <order>100</order>
+        <script><![CDATA[(function executeAction(current, event) {
+
+    // current IS already the OpsbridgeWorkItemStory record
+    if (!current || !current.isValidRecord()) {
+        gs.error('Script Action: current record is invalid');
+        return;
+    }
+
+    var payload = {};
+    var elements = current.getElements();
+
+    for (var i = 0; i < elements.length; i++) {
+        var fieldName = elements[i].getName();
+        payload[fieldName] = current.getValue(fieldName);
+    }
+
+    payload.almKey = current.getUniqueValue();
+
+    var r = new sn_ws.RESTMessageV2();
+    r.setEndpoint(
+        'https://cloudfulcrum--afdev.sandbox.my.salesforce-sites.com/services/apexrest/servicenow/workitemstory'
+    );
+    r.setHttpMethod('POST');
+    r.setRequestHeader('Content-Type', 'application/json');
+    r.setRequestBody(JSON.stringify(payload));
+
+    var response = r.execute();
+    gs.info('Salesforce response: ' + response.getStatusCode() + ' | ' + response.getBody());
+
+})(current, event);
+]]></script>
+        <synchronous>false</synchronous>
+        <sys_class_name>sysevent_script_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 11:50:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b79da6ac53f6b21059ead301a0490e33</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>opsbridge.github.trigger</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GitHubIntegration" source="x_1212781_github_0">8db5a66c53b6b21059ead301a0490e23</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitHubIntegration">8db5a66c53b6b21059ead301a0490e23</sys_scope>
+        <sys_update_name>sysevent_script_action_b79da6ac53f6b21059ead301a0490e33</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 12:10:37</sys_updated_on>
+    </sysevent_script_action>
+</record_update>

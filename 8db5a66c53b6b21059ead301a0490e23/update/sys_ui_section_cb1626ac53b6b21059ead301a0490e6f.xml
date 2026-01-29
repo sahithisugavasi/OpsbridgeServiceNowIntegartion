@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="cb1626ac53b6b21059ead301a0490e6f" sys_domain="global" table="x_1212781_github_0_opsbridgeworkitemstory" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-29 11:18:27</sys_created_on>
+            <sys_id>6b86a6ec53b6b21059ead301a0490edd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1212781_github_0_opsbridgeworkitemstory" sys_domain="global" view="Default view">cb1626ac53b6b21059ead301a0490e6f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-29 11:18:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>title</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-29 11:18:27</sys_created_on>
+            <sys_id>e786a6ec53b6b21059ead301a0490ede</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1212781_github_0_opsbridgeworkitemstory" sys_domain="global" view="Default view">cb1626ac53b6b21059ead301a0490e6f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-29 11:18:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-29 11:18:27</sys_created_on>
+            <sys_id>6786a6ec53b6b21059ead301a0490edf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1212781_github_0_opsbridgeworkitemstory" sys_domain="global" view="Default view">cb1626ac53b6b21059ead301a0490e6f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-29 11:18:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-29 11:21:24</sys_created_on>
+            <sys_id>a637a26053f6b21059ead301a0490eca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1212781_github_0_opsbridgeworkitemstory" sys_domain="global" view="Default view">cb1626ac53b6b21059ead301a0490e6f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-29 11:21:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-29 11:24:00</sys_created_on>
+            <sys_id>b0d7a6a053f6b21059ead301a0490ee6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1212781_github_0_opsbridgeworkitemstory" sys_domain="global" view="Default view">cb1626ac53b6b21059ead301a0490e6f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-29 11:24:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1212781_github_0_opsbridgeworkitemstory</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-29 11:16:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb1626ac53b6b21059ead301a0490e6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1212781_github_0_opsbridgeworkitemstory</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="GitHubIntegration" source="x_1212781_github_0">8db5a66c53b6b21059ead301a0490e23</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GitHubIntegration">8db5a66c53b6b21059ead301a0490e23</sys_scope>
+            <sys_update_name>sys_ui_section_cb1626ac53b6b21059ead301a0490e6f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-29 11:16:31</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -5,10 +5,7 @@
                 <element inactive_on_update="false" label="Task" value="Task"/>
                 <element inactive_on_update="false" label="User Story" value="User Story"/>
                 <element inactive_on_update="false" label="Bug" value="Bug"/>
-                <element inactive_on_update="false" label="Issue" value="Issue"/>
-                <element inactive_on_update="false" label="feature" value="feature"/>
                 <element inactive_on_update="false" label="Epic" value="Epic"/>
-                <element inactive_on_update="false" label="Test Case" value="Test Case"/>
                 <element inactive_on_update="false" label="Subtask" value="Subtask"/>
                 <element inactive_on_update="false" label="Story/Work Item" value="Story/Work Item"/>
             </choice>
@@ -30,6 +27,6 @@
                 <element inactive_on_update="false" label="Done" value="Done"/>
             </choice>
         </element>
-        <element label="Description" mandatory="true" max_length="800" name="description" type="string"/>
+        <element label="Description" max_length="800" name="description" type="string"/>
     </element>
 </database>

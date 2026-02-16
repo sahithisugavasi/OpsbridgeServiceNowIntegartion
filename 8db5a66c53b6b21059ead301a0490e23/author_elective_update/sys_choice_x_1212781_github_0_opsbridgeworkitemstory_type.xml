@@ -58,44 +58,6 @@
             <element>type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>feature</label>
-            <language>en</language>
-            <name>x_1212781_github_0_opsbridgeworkitemstory</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-02-03 13:59:09</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-02-03 13:59:09</sys_updated_on>
-            <value>feature</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Issue</label>
-            <language>en</language>
-            <name>x_1212781_github_0_opsbridgeworkitemstory</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-02-03 13:59:20</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-02-03 13:59:20</sys_updated_on>
-            <value>Issue</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type</element>
-            <hint/>
-            <inactive>false</inactive>
             <label>Story/Work Item</label>
             <language>en</language>
             <name>x_1212781_github_0_opsbridgeworkitemstory</name>
@@ -147,25 +109,6 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-02-03 13:56:37</sys_updated_on>
             <value>Task</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Test Case</label>
-            <language>en</language>
-            <name>x_1212781_github_0_opsbridgeworkitemstory</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-02-03 13:59:43</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-02-03 13:59:43</sys_updated_on>
-            <value>Test Case</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
